@@ -1,0 +1,36 @@
+{
+	"name": "ImportArticles",
+	"version": "1.3",
+	"author": "Kris Blair (Cblair91)",
+	"descriptionmsg": "importarticles-desc",
+	"license-name": "GPL-3.0",
+	"type": "other",
+	"MessagesDirs": {
+		"ImportArticles": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ImportArticles": "ImportArticles.i18n.php"
+	},
+	"AutoloadClasses": {
+		"ImportArticles": "ImportArticles.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.importarticles": {
+			"scripts": [
+				"resources/importarticles.js"
+			],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ImportArticles"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"ImportArticles::onBeforePageDisplay"
+		]
+	}
+}
