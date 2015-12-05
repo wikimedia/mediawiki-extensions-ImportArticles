@@ -32,5 +32,6 @@
 		"BeforePageDisplay": [
 			"ImportArticles::onBeforePageDisplay"
 		]
-	}
+	},
+	"manifest_version": 1
 }
