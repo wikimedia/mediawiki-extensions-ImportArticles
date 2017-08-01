@@ -1,4 +1,4 @@
-/**
+/*!
  * Import JavaScript and Stylesheet articles.
  *
  * @version 1.3
@@ -9,9 +9,9 @@
 /**
  * Call the api and send the data then output the return
  *
- * @param {Array} The data to use.
- * @param String The method to use: either 'GET' or 'POST'.
- * @param Function The function to call back to.
+ * @param {Array} data The data to use.
+ * @param {string} method The method to use: either 'GET' or 'POST'.
+ * @param {Function} callback The function to call back to.
  */
 function callAPI( data, method, callback ) {
 	data.format = 'json';
@@ -49,9 +49,9 @@ function callAPI( data, method, callback ) {
  *		]
  *	});
  *
- * @param String The type to load: Either 'script' or 'style'.
- * @param (String/{Array}) The file(s) to load.
- * @returns Boolean Whether success or fail
+ * @param {string} type The type to load: Either 'script' or 'style'.
+ * @param {string|Array} pages The file(s) to load.
+ * @return {boolean} Whether success or fail
  */
 function importArticles( type, pages ) {
 	var page,
@@ -80,7 +80,8 @@ function importArticles( type, pages ) {
 		query,
 		'GET',
 		function ( response ) {
-			for ( var i = 0; i < response.query.pageids.length; i++ ) {
+			var i;
+			for ( i = 0; i < response.query.pageids.length; i++ ) {
 				page = response.query.pages[response.query.pageids[i]];
 				if ( response.query.pageids[i] === '-1' ) {
 					mw.error( 'The page does not exist: ' + page.title );
