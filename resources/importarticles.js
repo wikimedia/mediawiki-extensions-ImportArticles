@@ -2,7 +2,7 @@
  * Import JavaScript and Stylesheet articles.
  *
  * @version 1.3
- * @licence GPL-3.0 http://www.gnu.org/licenses/gpl.html
+ * @licence GPL-3.0-only http://www.gnu.org/licenses/gpl.html
  * @author Kris Blair (Cblair91)
  */
 

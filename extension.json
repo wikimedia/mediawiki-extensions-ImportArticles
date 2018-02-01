@@ -3,7 +3,7 @@
 	"version": "1.4",
 	"author": "Kris Blair (Cblair91)",
 	"descriptionmsg": "importarticles-desc",
-	"license-name": "GPL-3.0",
+	"license-name": "GPL-3.0-only",
 	"type": "other",
 	"MessagesDirs": {
 		"ImportArticles": [
