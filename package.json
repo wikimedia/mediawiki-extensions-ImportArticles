@@ -1,14 +1,5 @@
 {
-	"name": "import-articles",
-	"license": "GPL-3.0-only",
-	"homepage": "https://mediawiki.org/wiki/Extension:ImportArticles",
-	"authors": [
-		{
-			"name": "Kris Blair (Cblair91)",
-			"email": "admin@betadev.co.uk"
-		}
-	],
-	"version": "1.0.3",
+	"private": true,
 	"scripts": {
 		"test": "grunt test",
 		"doc": "jsduck"
