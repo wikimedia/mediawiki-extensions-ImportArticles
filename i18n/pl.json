@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"importarticles-desc": "Umożliwia korzystanie z JavaScriptu ImportArticles w celu importowania wielu stron jednocześnie"
