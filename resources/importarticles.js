@@ -15,8 +15,7 @@
  */
 function callAPI( data, method, callback ) {
 	data.format = 'json';
-	$.ajax(
-	{
+	$.ajax( {
 		data: data,
 		dataType: 'json',
 		url: '/api.php',
@@ -42,12 +41,12 @@ function callAPI( data, method, callback ) {
  * >> Examples:
  *
  * // Importing multiple JavaScript files
- *	importArticles(
- *		'script', [
- *			'Mediawiki:MyCustomJavaScript.js',
- *			'Mediawiki:MyCustomJavaScript.js2',
- *		]
- *	});
+ *  importArticles(
+ *      'script', [
+ *          'Mediawiki:MyCustomJavaScript.js',
+ *          'Mediawiki:MyCustomJavaScript.js2',
+ *      ]
+ *  });
  *
  * @param {string} type The type to load: Either 'script' or 'style'.
  * @param {string|Array} pages The file(s) to load.
