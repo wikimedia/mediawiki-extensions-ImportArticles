@@ -26,9 +26,7 @@
 		"remoteExtPath": "ImportArticles"
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"ImportArticles::onBeforePageDisplay"
-		]
+		"BeforePageDisplay": "ImportArticles::onBeforePageDisplay"
 	},
 	"manifest_version": 1
 }
