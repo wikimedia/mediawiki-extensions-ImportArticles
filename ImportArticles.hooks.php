@@ -11,22 +11,19 @@
 
 class ImportArticles {
 	/**
-	 * Hooks initialized
-	 *
-	 * @var	boolean
+	 * @var	bool
 	 */
 	private static $initialized = false;
 
 	/**
 	 * Initiates the loading of the JavaScript
 	 *
-	 * @access	public
-	 * @return	void
+	 * @param OutputPage $out
+	 * @param Skin $skin
 	 */
-	public static function onBeforePageDisplay() {
-		global $wgOut;
+	public static function onBeforePageDisplay( OutputPage $out, $skin ) {
 		if ( !self::$initialized ) {
-			$wgOut->addModules( 'ext.importarticles' );
+			$out->addModules( 'ext.importarticles' );
 			self::$initialized = true;
 		}
 	}
