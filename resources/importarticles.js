@@ -61,7 +61,7 @@ function importArticles( type, pages ) {
 			rvprop: 'content',
 			indexpageids: 'true'
 		};
-	if ( $.isArray( pages ) ) {
+	if ( Array.isArray( pages ) ) {
 		query.titles = pages.join( '|' );
 	} else {
 		query.titles = pages;
