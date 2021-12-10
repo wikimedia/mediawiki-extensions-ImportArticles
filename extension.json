@@ -5,6 +5,9 @@
 	"descriptionmsg": "importarticles-desc",
 	"license-name": "GPL-3.0-only",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"ImportArticles": [
 			"i18n"
@@ -28,5 +31,5 @@
 	"Hooks": {
 		"BeforePageDisplay": "ImportArticles::onBeforePageDisplay"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
