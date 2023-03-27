@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
-	"importarticles-desc": "Permettent l'utilisation de JavaScript ImportArticles pour importer plusieurs pages à la fois"
+	"importarticles-desc": "Permet l’utilisation du JavaScript ImportArticles pour importer plusieurs pages à la fois"
 }
