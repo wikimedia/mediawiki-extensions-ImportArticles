@@ -53,7 +53,7 @@ function callAPI( data, method, callback ) {
  * @return {boolean} Whether success or fail
  */
 function importArticles( type, pages ) {
-	var page,
+	let page,
 		outputText = '',
 		query = {
 			action: 'query',
@@ -78,8 +78,8 @@ function importArticles( type, pages ) {
 	callAPI(
 		query,
 		'GET',
-		function ( response ) {
-			var i;
+		( response ) => {
+			let i;
 			for ( i = 0; i < response.query.pageids.length; i++ ) {
 				page = response.query.pages[response.query.pageids[i]];
 				if ( response.query.pageids[i] === '-1' ) {
