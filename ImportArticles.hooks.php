@@ -3,10 +3,10 @@
  * ImportArticles
  * ImportArticles MediaWiki hooks
  *
- * @author: Kris Blair (Cblair91)
- * @license: GPL-3.0-only http://www.gnu.org/licenses/gpl.html
- * @package: ImportArticles
- * @link: https://mediawiki.org/wiki/Extension:ImportArticles
+ * @author Kris Blair (Cblair91)
+ * @license GPL-3.0-only http://www.gnu.org/licenses/gpl.html
+ * @package ImportArticles
+ * @link https://mediawiki.org/wiki/Extension:ImportArticles
  */
 
 class ImportArticles {
