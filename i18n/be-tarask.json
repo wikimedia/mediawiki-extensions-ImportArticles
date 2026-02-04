@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Ucukor"
 		]
 	},
-	"importarticles-desc": "Дазваляе выкарыстаньне ImportArticles JavaScript для адначасовага імпарту некалькіх старонак"
+	"importarticles-desc": "Дазваляе карыстаньне ImportArticles JavaScript для адначаснага імпарту мноства старонак"
 }
